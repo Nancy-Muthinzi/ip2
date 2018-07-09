@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122031917-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122031917-1');
+</script>
+
   <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
   <link href="css/styles.css" rel ="stylesheet" type="text/css">
   <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
@@ -62,13 +72,11 @@
 <!--fastfood/drinks-->
 <div class="row">
   <div class="col-md-6">
-    <div class="card">
-      <img src="images/fastFood1.jpg" alt="fastfood" class="left">
-      <img src="images/fastFood2.jpg" alt="fastfood" class="left">
-    </div>
+      <img src="images/fastFood1.jpg" alt="fastfood" class="left" id="fasfood">
+      <img src="images/fastFood2.jpg" alt="fastfood" class="left" id="fasfood">
   </div>
   <div class="col-md-6" id="fastfood">
-    <h2>Fast Food</h2>
+    <h2><strong>Fast Food</strong></h2>
       <h3>You'll love our delicious fast food.</h3>
       <p>Sed finibus sapien luctus pretium interdum. Etiam accumsan nibh neque. Integer congue magna orci, vitae suscipit mi tincidunt quis. Suspendisse fringilla, orci eu aliquet ultricies, libero ipsum maximus massa, et mollis leo massa sed felis. Suspendisse molestie elit non mollis gravida</p>
       <button type="button" class="btn">View Gallery</button>
@@ -78,17 +86,15 @@
 <br>
   <div class="row">
     <div class="col-md-6" id="drinks">
-    <h2>Drinks</h2>
+    <h2><strong>Drinks</strong></h2>
       <h3>We also produce delicious drinks.</h3>
       <p>Sed finibus sapien luctus pretium interdum. Etiam accumsan nibh neque. Integer congue magna orci, vitae suscipit mi tincidunt quis. Suspendisse fringilla, orci eu aliquet ultricies, libero ipsum maximus massa, et mollis leo massa sed felis. Suspendisse molestie elit non mollis gravida</p>
       <button type="button" class="btn">View Gallery</button>
   </div>
   <div class="col-md-6">
-    <div class="card">
         <img src="images/drink1.jpg" alt="drinks" class="right">
         <img src="images/drink2.jpg" alt="drinks" class="right">
-      </div>
-  </div>
+    </div>
 </div>
 <br>
 <br>
@@ -108,15 +114,15 @@
 <div class="row">
   <div class="col-md-3">
     <img src="images/chickenBurger.jpg">
-    <p>Chicken Burger</p>
+    <p class="orange">Chicken Burger</p>
   </div>
   <div class="col-md-3">
     <img src="images/beefBurger.jpg">
-    <p>Beef Burger</p>
+    <p class="orange">Beef Burger</p>
   </div>
   <div class="col-md-3">
     <img src="images/chickenPizza.jpg">
-    <p>Chicken Pizza</p>
+    <p class="orange">Chicken Pizza</p>
   </div>
 </div>
 </div>
@@ -126,7 +132,7 @@
 <div class="card">
   <div class="row">
     <div class="col-md-6">
-<h2 id="customers"><strong>Our Happy Customers</strong><h2>
+<h2 class="orange"><strong>Our Happy Customers</strong><h2>
   <h3><strong>George Richard</strong></h3>
   <p>Great food! Menu is awesome, there foods are not only great but also in the right price. I'll highly recommend them :)</p>
     &#8249;
@@ -136,8 +142,9 @@
     &#8250;
     </div>
     <div class="col-md-6">
-  <h3 id="menu"><strong>About menu</strong></h3>
+  <h3 class="orange"><strong>About menu</strong></h3>
     <p>We are menu a little team of 7 members. Sed finibus sapien luctus pretium interdum. Etiam accumsan nibh neque. Integer congue magna orci, vitae suscipit mi tincidunt quis. Suspendisse fringilla, orci eu aliquet ultricies, libero ipsum maximus massa, et mollis leo massa sed felis.</p>
+</div>
 </div>
 </div>
 <br>

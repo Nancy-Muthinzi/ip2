@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("button").click(function(){
-    alert("im good");
+    alert("You have been successfully added to our email list");
   });
 });
 

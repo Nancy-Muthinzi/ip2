@@ -93,8 +93,11 @@ color: white;
 #nav-drinks-tab, #nav-chicken-tab, #nav-rice-tab {
   color: black;
 }
-#customers, #menu {
+.orange {
   color: rgb(241, 90, 41);
+}
+.card {
+  text-align: center;
 }
 p {
   color: black;
@@ -131,9 +134,6 @@ p {
   text-align: center;
   image: center;
   background-color: rgb(241, 90, 41);
-}
-.card {
-  text-align: center;
 }
 .formStyle {
 margin: 20px;
