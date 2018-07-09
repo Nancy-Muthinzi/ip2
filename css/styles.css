@@ -1,4 +1,7 @@
-
+.container {
+  font-family: Shadows Into Light;
+  font-style: normal;
+}
 #logo {
   background-image: url("../images/landing.jpg");
   background-size: cover;
