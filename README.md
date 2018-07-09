@@ -3,17 +3,18 @@
 #### This is a landing page for Anita's Kitchen, 06th July 2018
 #### By **Nancy Muthinzi**
 ## Description
-This is Anita's Landing Page, a web page about her business giving information about her restaurant, the meals she offers in the restaurant and how to contact her.
+This is Anita's Kitchen Landing Page, a web page about her business giving information about her restaurant, the meals she offers in the restaurant, how to contact her and testimonials from some of her customers.
 ## Setup/Installation Requirements
 * This code can be viewed on any web browser available on your device.
 ## Known Bugs
 There are no unresolved issues in regards to this code that I know of.
 ## Technologies Used
-I worked on this code on Linux OS. I used HTML to write the code, CSS to style it and Markdown language on the ABOUTME section. I created the code using Atom and Git.
+I worked on this code on Linux OS. I used HTML to write the code, CSS and Bootstrap to style and organise it; and Markdown language on the ABOUTME section. I created the code using Atom and Git applications.
 ## Support and contact details
 If there are any issues on how the code runs, concerns, questions or ideas, kindly reach out to me on my email address; nanciekathini@gmail.com.
+
 ### License
-*DMIT License
+*MIT License
 
 Copyright (c) [2018] [Nancy Muthinzi]
 

@@ -1,49 +1,134 @@
 
 #logo {
   background-image: url("../images/landing.jpg");
+  background-size: cover;
   color: white;
   text-align: center;
   image: center;
   padding-bottom: 70px;
 }
+#partytime{
+  background-color: rgb(241, 90, 41);
+  padding:16px;
+  text-align: center;
+}
+#happyhour{
+  padding:16px;
+  text-align: center;
+}
 #breakfast {
   background-image: url("../images/breakfast.jpg");
+  background-size: auto;
   padding: 70px;
   color: white;
 }
 #lunch {
   background-image: url("../images/lunch.jpg");
+  background-size: auto;
   padding: 70px;
   color: white;
 }
 #dinner {
 background-image: url("../images/dinner.jpg");
+background-size: auto;
 padding: 70px;
-padding-right: 0px;
 color: white;
+}
+.btn {
+  color: rgb(241, 90, 41);
+  border-radius: 0.5rem;
+  border: 20px;
+  background-color: ;
+
 }
 #foods {
   background-image: url("../images/foods.Bg.png")
+  text-align: center;
+  color: rgb(241, 90, 41);
+}
+#nav-fastfood-tab {
+  color: rgb(241, 90, 41);
+}
+#nav-drinks-tab, #nav-chicken-tab, #nav-rice-tab {
+  color: black;
 }
 #customers, #menu {
   color: rgb(241, 90, 41);
 }
-.left {
-  text-align: left
+p {
+  color: black;
 }
 .right {
+  float: right;
+}
+.left {
+  float: left;
+}
+#fastfood {
+  text-align: left;
+}
+#drinks {
   text-align: right;
 }
-.card {
-  text-align: center;
-  image: center;
+.meals {
+  background-image: url("../images/foodsBg.jpg")
+}
+.active {
+  color: rgb(241, 90, 41);
+  background-color: white;
 }
 .subscribe {
+  font-size:20px;
+  color: white;
   text-align: center;
-  background-image: ("../images/subscribe.jpg")
+  background-image: url("../images/subscribe.jpg");
+  background-repeat: no-repeat;
+  padding-bottom: 0px;
 }
 #bottom {
+  color: white;
   text-align: center;
   image: center;
   background-color: rgb(241, 90, 41);
+}
+.card {
+  text-align: center;
+}
+.formStyle {
+margin: 20px;
+background:rgba();
+padding: 0px;
+width: 40%;
+margin-bottom: 20px;
+font-size: 28px;
+font-weight: 100;
+color: #ffffff;
+border-radius: 5px;
+}
+.formButton {
+margin: 20px;
+background-color:#F15A29;
+display:inline-block;
+color:white;
+font-size:28px;
+font-weight: 100px;
+padding:6px 40px;
+text-decoration:none;
+border-radius: 5px;
+}
+.formButton:hover {
+background-color: white;
+color:white;
+}
+input:focus {
+outline: none;
+}
+::-webkit-input-placeholder {
+color: #ecf0f1;
+}
+:-moz-placeholder {
+color: #ecf0f1;
+}
+:-ms-input-placeholder {
+color: #ecf0f1;
 }
