@@ -4,7 +4,7 @@
   <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
   <link href="css/styles.css" rel ="stylesheet" type="text/css">
   <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 
 
@@ -14,10 +14,25 @@
 <body>
 <!--logo section-->
   <div class="container">
-    <div id="logo">
+  <div id="logo">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">1. Contacts</a>
+      <a href="#">2. Events</a>
+      <a href="#">3. Menu</a>
+    </div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+
+</script>
+
+    <div class="sasa">
       <img src="images/logoBig.png" alt="logo">
       <h1>We provide the best food</h1>
       <h1>At the <strong>Right Price<strong></h1>
+    </div>
+
     </div>
 <!--meals section-->
   <div class="row">
@@ -137,7 +152,8 @@
    <div class="mail">
        <form action="">
            <input type="email" name="email" class="formStyle" placeholder="Your Email" required />
-           <a href="#" class="formButton">Subscribe</a>
+           <button type="button" class="formButton" name="button">Subscribe</button>
+
      </form>
      <br>
    </div>
