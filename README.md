@@ -1,5 +1,5 @@
 # Anita's Kitchen
-# Anita-
+# This is a webpage on Anita's Kitchen.
 #### This is a landing page for Anita's Kitchen, 06th July 2018
 #### By **Nancy Muthinzi**
 ## Description
