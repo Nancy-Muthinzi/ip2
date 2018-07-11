@@ -59,11 +59,6 @@ body {
   padding: 70px;
   color: white;
 }
-#lunch:hover,
-#dinner:hover,
-#breakfast:hover {
-  opacity: .5;
-}
 #lunch {
   background-image: url("../images/lunch.jpg");
   background-size: auto;
@@ -71,10 +66,15 @@ body {
   color: white;
 }
 #dinner {
-background-image: url("../images/dinner.jpg");
-background-size: auto;
-padding: 70px;
-color: white;
+  background-image: url("../images/dinner.jpg");
+  background-size: auto;
+  padding: 70px;
+  color: white;
+}
+#breakfast:hover,
+#lunch:hover,
+#dinner:hover {
+  opacity: .5;
 }
 .btn {
   color: rgb(241, 90, 41);
@@ -98,6 +98,7 @@ color: white;
 }
 .well {
   text-align: center;
+  margin: 100px;
 }
 p {
   color: black;
@@ -114,8 +115,16 @@ p {
 #drinks {
   text-align: right;
 }
+.cnt {
+  background-color: white;
+}
 .meals {
-  background-image: url("../images/foodsBg.jpg")
+  background-image: url("../images/foodsBg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
 }
 .active {
   color: rgb(241, 90, 41);
@@ -128,33 +137,34 @@ p {
   background-image: url("../images/subscribe.jpg");
   background-repeat: no-repeat;
   padding-bottom: 0px;
-}
+  }
 .formStyle {
-margin: 20px;
-width: 40%;
-margin-bottom: 20px;
-font-size: 28px;
-font-weight: 100;
-color: #ffffff;
-border-radius: 5px;
-background-color: lightgrey;
+  margin: 20px;
+  width: 40%;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 100;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: lightgrey;
 }
 .formButton {
-margin: 20px;
-background-color:#F15A29;
-display:inline-block;
-color:white;
-font-size:28px;
-font-weight: 100px;
-padding:6px 40px;
-text-decoration:none;
-border-radius: 5px;
+  margin: 20px;
+  background-color:#F15A29;
+  display:inline-block;
+  color:white;
+  font-size:18px;
+  font-weight: 100px;
+  padding:6px 40px;
+  text-decoration:none;
+  border-radius: 5px;
 }
 .formButton:hover {
 background-color: white;
 color:white;
 }
 #bottom {
+  padding-top: 10px;
   color: white;
   text-align: center;
   image: center;
