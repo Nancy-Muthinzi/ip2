@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122031917-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122031917-1');
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
   <link href="css/styles.css" rel ="stylesheet" type="text/css">
   <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 
     <title>Anita's Kitchen</title>
 </head>
 
 <body>
-  <div class="container">
-    <div id="logo">
+  <div class="container-fluid">
+<!--logo  section-->
+  <div id="logo">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">1. Contacts</a>
+      <a href="#">2. Events</a>
+      <a href="#">3. Menu</a>
+    </div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+    <div class="sasa">
       <img src="images/logoBig.png" alt="logo">
       <h1>We provide the best food</h1>
       <h1>At the <strong>Right Price<strong></h1>
+    </div>
 
-</div>
-
-<div class="container" onclick="myFunction(this)">
-  <div class="bar1"></div>
-  <div class="bar2"></div>
-  <div class="bar3"></div>
-</div>
-
-    <div class="row">
+    </div>
+<!--meals section-->
+  <div class="row">
     <div class="col-md-3">
+      <div id="happyhour">
       <h2 id="happy">Happy Hour<h2>
+      </div>
+      <div id="partytime">
       <h2 id="party">Party Time<h2>
+      </div>
     </div>
 
     <div class="col-md-3" id="breakfast">
@@ -42,44 +64,115 @@
       <h2 id="meals"><em>Dinner</em><h2>
     </div>
   </div>
-
-<div class="row" id="fastfoods">
+<br>
+<br>
+<!--fastfood/drinks-->
+<div class="row">
   <div class="col-md-6">
-      <img src="images/fastFood1.jpg" alt="fastfood">
-      <img src="images/fastFood2.jpg" alt="fastfood">
-    </div>
-    </div>
+      <img src="images/fastFood1.jpg" alt="fastfood" class="left" id="fasfood">
+      <img src="images/fastFood2.jpg" alt="fastfood" class="left" id="fasfood">
   </div>
-
-  <div class="col-md-6">
-    <h2 class="right=-title">Fast Food</h2>
+  <div class="col-md-6" id="fastfood">
+    <h2><strong>Fast Food</strong></h2>
       <h3>You'll love our delicious fast food.</h3>
       <p>Sed finibus sapien luctus pretium interdum. Etiam accumsan nibh neque. Integer congue magna orci, vitae suscipit mi tincidunt quis. Suspendisse fringilla, orci eu aliquet ultricies, libero ipsum maximus massa, et mollis leo massa sed felis. Suspendisse molestie elit non mollis gravida</p>
-      <button type="button" class="btn">View Gallery</button>
+      <button type="button" class="btn">View Gallery &#8594;</button>
+  </div>
+</div>
+<br>
+<br>
+  <div class="row">
+    <div class="col-md-6" id="drinks">
+    <h2><strong>Drinks</strong></h2>
+      <h3>We also produce delicious drinks.</h3>
+      <p>Sed finibus sapien luctus pretium interdum. Etiam accumsan nibh neque. Integer congue magna orci, vitae suscipit mi tincidunt quis. Suspendisse fringilla, orci eu aliquet ultricies, libero ipsum maximus massa, et mollis leo massa sed felis. Suspendisse molestie elit non mollis gravida</p>
+      <button type="button" class="btn">View Gallery &#8594;</button>
   </div>
 
-  <div class="row" id="drinks">
-    <div class="col-md-6">
-        <img src="images/drink1.jpg" alt="fastfood">
-        <img src="images/drink2.jpg" alt="fastfood">
-      </div>
+  <div class="col-md-6">
+        <img src="images/drink1.jpg" alt="drinks" class="right">
+        <img src="images/drink2.jpg" alt="drinks" class="right">
     </div>
+</div>
+<br>
+<br>
+<!--navbar-->
+<!-- <div class="row">
+  <div class="col-md-9"> -->
+<div class="meals">
+  <div class="container cnt">
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#">Fast Food</a></li>
+  <li><a href="#">Drinks</a></li>
+  <li><a href="#">Chicken</a></li>
+  <li><a href="#">Rice</a></li>
+</ul>
+
+<div class="row">
+  <div class="col-md-4">
+    <img src="images/chickenBurger.jpg">
+    <p class="orange">Chicken Burger</p>
   </div>
-
+  <div class="col-md-4">
+    <img src="images/beefBurger.jpg">
+    <p class="orange">Beef Burger</p>
+  </div>
+  <div class="col-md-4">
+    <img src="images/chickenPizza.jpg">
+    <p class="orange">Chicken Pizza</p>
+  </div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<!--customers/team-->
+<div class="well">
+  <div class="row">
     <div class="col-md-6">
-      <h2 class="right=-title">Drinks</h2>
-        <h3>We also produce delicious drinks.</h3>
-        <p>Sed finibus sapien luctus pretium interdum. Etiam accumsan nibh neque. Integer congue magna orci, vitae suscipit mi tincidunt quis. Suspendisse fringilla, orci eu aliquet ultricies, libero ipsum maximus massa, et mollis leo massa sed felis. Suspendisse molestie elit non mollis gravida</p>
-        <button type="button" class="btn">View Gallery</button>
+<h2 class="orange"><strong>Our Happy Customers</strong><h2>
+  <h3><strong>George Richard</strong></h3>
+  <p>Great food! Menu is awesome, there foods are not only great but also in the right price. I'll highly recommend them :)</p>
+
+    <div class="arrows">
+      &#8249;
+    <img src="images/p1.png">
+    <img src="images/p2.png">
+    <img src="images/p3.png">
+    &#8250;
+  </div>
     </div>
+    <div class="col-md-6">
+  <h3 class="orange"><strong>About menu</strong></h3>
+    <p>We are menu a little team of 7 members. Sed finibus sapien luctus pretium interdum. Etiam accumsan nibh neque. Integer congue magna orci, vitae suscipit mi tincidunt quis. Suspendisse fringilla, orci eu aliquet ultricies, libero ipsum maximus massa, et mollis leo massa sed felis.</p>
+  </div>
+</div>
+</div>
 
-    <div class="bottom"
-    <img src="images/logo_white.png">
-    <h3>MENU</h3>
-
-    </div>
-
-
+<!--subscribe section-->
+<div class="subscribe">
+  <br>
+  <br>
+  <h2>Get our daily food items delivered to your email</h2>
+    <form>
+           <input type="email" name="email" class="formStyle" placeholder="Your Email" required />
+           <button type="button" class="formButton" name="button">Subscribe</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    </form>
+  </div>
+<!--footer section-->
+  <div id="bottom">
+    <h3><img src="images/logo_white.png">MENU</h3>
+      <h4>That's What We Are</h4>
+            <img src="images/facebook.png">
+            <img src="images/pinterest.png">
+            <img src="images/twitter.png">
+        <h5>2016 Menu Restaurant</h5>
+  </div>
+<!-- end! -->
 </div>
 </body>
 </html>
