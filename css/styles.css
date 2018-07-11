@@ -129,22 +129,15 @@ p {
   background-repeat: no-repeat;
   padding-bottom: 0px;
 }
-#bottom {
-  color: white;
-  text-align: center;
-  image: center;
-  background-color: rgb(241, 90, 41);
-}
 .formStyle {
 margin: 20px;
-background:rgba();
-padding: 0px;
 width: 40%;
 margin-bottom: 20px;
 font-size: 28px;
 font-weight: 100;
 color: #ffffff;
 border-radius: 5px;
+background-color: lightgrey;
 }
 .formButton {
 margin: 20px;
@@ -161,15 +154,9 @@ border-radius: 5px;
 background-color: white;
 color:white;
 }
-input:focus {
-outline: none;
-}
-::-webkit-input-placeholder {
-color: #ecf0f1;
-}
-:-moz-placeholder {
-color: #ecf0f1;
-}
-:-ms-input-placeholder {
-color: #ecf0f1;
+#bottom {
+  color: white;
+  text-align: center;
+  image: center;
+  background-color: rgb(241, 90, 41);
 }
