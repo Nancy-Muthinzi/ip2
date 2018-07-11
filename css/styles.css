@@ -129,6 +129,11 @@ p {
 .active {
   color: rgb(241, 90, 41);
   background-color: white;
+  tex
+}
+.arrows {
+  color: rgb(241, 90, 41);
+  size: 50px;
 }
 .subscribe {
   font-size:20px;
